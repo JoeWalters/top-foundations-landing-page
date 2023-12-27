@@ -1,0 +1,129 @@
+/* -- style.css -- */
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    width: 100px;
+}
+
+.main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left:  15%;
+    padding-right: 15%;
+}
+
+.header-left {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.header, .title {
+    background-color: #1F2937;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:  15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+    max-height: 400px;
+}
+
+.title-sub {
+    margin-bottom: 16px;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-right {
+    display: flex;
+    width: 900px
+}
+
+.record {
+    max-width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.container {
+    display: flex;
+    margin: 32px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin: 16px;
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
